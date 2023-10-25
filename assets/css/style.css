@@ -22,6 +22,7 @@
   --bg-uncheck: #ff1010;
   --bg-page: #f6f8f9;
   --bg-light: #ffffff;
+  --bg-text: #1e1e1e;
 }
 
 /* #endregion colors */
@@ -31,11 +32,59 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--bg-page);
+  color: #1e1e1e;
+}
+
+.container {
+  width: 70%;
+  height: 800px;
+  background-color: var(--bg-light);
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 0.5rem;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.ml-2 {
+  margin-left: 2rem;
 }
 
 /* #endregion utilities */
+
+/* #region header */
 
 .logo-container {
   background-color: var(--bg-light);
   padding: 0.5rem;
 }
+
+/* #endregion header */
+
+/* #region main */
+
+#buttons-section {
+  border-bottom: 2px solid var(--bg-page);
+}
+
+.buttons {
+  padding: 1rem 0;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  border: 0px;
+  padding: 8px 12px 8px 12px;
+  background-color: var(--bg-btn);
+}
+
+.btn-secondary {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 8px 12px 8px 12px;
+  background-color: var(--bg-light);
+}
+
+/* #endregion main */
