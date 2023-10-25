@@ -21,7 +21,7 @@
   --bg-check: #62d5c0;
   --bg-uncheck: #ff1010;
   --bg-page: #f6f8f9;
-  --bg-title: #f6f8f9;
+  --bg-light: #ffffff;
 }
 
 /* #endregion colors */
@@ -30,4 +30,12 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: var(--bg-page);
+}
+
+/* #endregion utilities */
+
+.logo-container {
+  background-color: var(--bg-light);
+  padding: 0.5rem;
 }
