@@ -136,4 +136,27 @@ body {
   border-radius: 1rem;
 }
 
+.blue {
+  background-color: var(--bg-primary);
+}
+
+.purple {
+  background-color: var(--bg-purple);
+}
+
+.light-green {
+  background-color: var(--bg-light-green);
+}
+
+.rose {
+  background-color: var(--bg-rose);
+}
+
+.green {
+  background-color: var(--bg-green);
+}
+
+.orange {
+  background-color: var(--bg-orange);
+}
 /* #endregion main */
