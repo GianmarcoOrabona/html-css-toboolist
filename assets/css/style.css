@@ -1,10 +1,33 @@
 /* #region reset rules */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* #endregion reset rules */
 
+/* #region colors */
+
+:root {
+  --bg-btn: #14aaf5;
+  --bg-primary: #09a9ed;
+  --bg-purple: #ab5de6;
+  --bg-light-green: #2cc6ab;
+  --bg-orange: #ff9b00;
+  --bg-rose: #ec4a9d;
+  --bg-green: #a3d116;
+  --bg-check: #62d5c0;
+  --bg-uncheck: #ff1010;
+  --bg-page: #f6f8f9;
+  --bg-title: #f6f8f9;
+}
+
+/* #endregion colors */
+
+/* #region utilities */
+
+body {
+  font-family: "Inter", sans-serif;
+}
